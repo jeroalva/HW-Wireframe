@@ -53,8 +53,8 @@ p{
 }
 aside{
     background-color: rgb(211, 204, 204);
-    width: 44.21%;
-    float: right;
+    width: 38%;
+    float: left;
     margin: 7.5px 7px 0px 7.5px;
     padding: 24px 10px 10px 10px;
     height: 214px;
@@ -64,15 +64,7 @@ footer{
     background-color: rgb(211, 204, 204);
     margin: 7.5px 0px 0px 7.5px;
     height: 52px;
-    position: absolute;
-    top: 445px;
     display: block;
-    width: 79.5%;
     padding-top: 29px;
+    clear:both;
 }
-
-.clearfix::after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
