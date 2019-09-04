@@ -1,5 +1,4 @@
 body{
-    background-color: rgb(151, 148, 148);
     padding: 2px 100px 70px 100px;
     height: 75px;
     font-size: 17px;
@@ -8,18 +7,15 @@ body{
     font-family: sans-serif;
 }
 header{
-    background-color: rgb(211, 204, 204);
     padding: 29px;
     margin: 7.5px;
 }
 nav{
-    background-color: rgb(211, 204, 204);
     padding: 29px;
     margin: 7.5px;
 }
 
 section{
-    background-color: rgb(211, 204, 204);
     width: 48%;
     float: left;
     margin: 7.5px 7.5px 0px 7.5px;
@@ -29,42 +25,45 @@ section{
 article{
     color: rgb(211,204,204);
     padding: 10px;
-    background-color: rgb(151, 148, 148);
     margin: 24px 0px 0px 0px;
     height: 150px;
 }
 
 div{
     font-size: 17px;
-    color: rgb(134,128,128);
-    background-color: rgb(211, 204, 204);
     height: 35px;
     margin-top: 10px;
     padding-top: 15px;
+    color: rgb(151, 148, 148);
 }
 
 p{
     font-size: 20px;
     color: rgb(134,128,128);
-    background-color: rgb(211, 204, 204);
     height: 40px;
     margin-top: 10px;
     padding-top: 10px;
 }
 aside{
-    background-color: rgb(211, 204, 204);
     width: 38%;
-    float: left;
-    margin: 7.5px 7px 0px 7.5px;
+    float: right;
+    margin: 7.5px 7px 7px 7.5px;
     padding: 24px 10px 10px 10px;
     height: 214px;
 }
 
 footer{
-    background-color: rgb(211, 204, 204);
-    margin: 7.5px 0px 0px 7.5px;
+    margin: 7.5px 7px 0px 7.5px;
     height: 52px;
     display: block;
     padding-top: 29px;
     clear:both;
+}
+
+.colorgrisclaro {
+    background-color: rgb(243, 243, 243);
+}
+
+.colorgrisobscuro {
+    background-color: rgb(151, 148, 148);
 }
